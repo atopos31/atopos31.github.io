@@ -1,4 +1,17 @@
 baseURL: https://example.org/
 languageCode: zh-cn
-title: 我的新Hugo网站
-theme: ananke
+title: 博客
+theme: PaperMod
+params:
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: /favicon.ico
+menus:
+  main:
+  - name: 主页
+    pageRef: /
+    weight: 10
+caches:
+  images:
+    dir: :cacheDir/images
