@@ -1,0 +1,4 @@
+baseURL: https://example.org/
+languageCode: zh-cn
+title: 我的新Hugo网站
+theme: ananke
