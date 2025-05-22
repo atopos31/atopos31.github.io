@@ -1,16 +1,34 @@
 languageCode: zh-cn
 title: 博客
 theme: PaperMod
+markup:
+  highlight:
+    codeFences: true           # 代码框
+    guessSyntax: true          # 猜测代码类型
+    lineNos: true              # 显示行号
+    lineNumbersInTable: false  # table分隔行号与代码
+    noClasses: true            # 代码块style而非class
+    style: "monokai"           # 配色方案
 params:
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: /favicon.ico
+  homeInfoParams:
+    Title: 欢迎呀! 👋
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/atopos31"
+    - name: "rss"
+      url: "/index.xml"
 menus:
   main:
   - name: 主页
     pageRef: /
     weight: 10
+
 caches:
   images:
     dir: :cacheDir/images
