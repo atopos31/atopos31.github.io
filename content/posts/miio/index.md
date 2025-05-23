@@ -111,7 +111,6 @@ Main light
 ### 查看设备状态
 
 **miiocli plug --ip 192.168.0.107 --token f01db26e5eca9669f72abb5a9d92998e status**
-![](https://oss.hackerxiao.online/vblog/97fe887519401562f080de26aab083e6.png?imageView2/0/format/webp)
 ### 开灯
 
 **miiocli plug --ip 192.168.0.107 --token f01db26e5eca9669f72abb5a9d92998e on**
