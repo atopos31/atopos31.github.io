@@ -1,6 +1,6 @@
 +++
 date = '2025-05-22T23:50:43+08:00'
-title = 'Powershell'
+title = 'Powershell美化'
 +++
 
 ## 使用vscode打开配置文件
