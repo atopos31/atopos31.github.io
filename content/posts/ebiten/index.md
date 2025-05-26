@@ -2,6 +2,7 @@
 date = '2023-04-06T23:30:51+08:00'
 title = '用GO+Ebiten写一个飞机大战'
 ShowToc  = true
+tags = ["go"]
 +++
 
 # Ebitengine介绍

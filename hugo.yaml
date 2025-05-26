@@ -28,6 +28,9 @@ menus:
   - name: 主页
     pageRef: /
     weight: 10
+  - name: 标签
+    pageRef: /tags/
+    weight: 10
 
 caches:
   images:
