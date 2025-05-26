@@ -1,6 +1,5 @@
 +++
 date = '2024-09-26T22:27:43+08:00'
-draft = true
 title = 'Linux系统程序设计实验记录'
 tags = ["linux","c"]
 +++

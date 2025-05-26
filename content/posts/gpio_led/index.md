@@ -1,6 +1,5 @@
 +++
 date = '2023-12-26T22:41:36+08:00'
-draft = true
 title = '使用Python在0.96oled上显示状态信息'
 tags = ["python","linux"]
 +++
