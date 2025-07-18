@@ -220,3 +220,41 @@ func ScannerToken(reader *bufio.Scanner) iter.Seq2[string, error] {
 	}
 }
 ```
+遍历消息列表，可以实现指定类型遍历，源码见我写的[nsxbot](https://github.com/nsxdevx/nsxbot/blob/master/event/message.go)
+```go
+type CommonMessage struct {
+	SubType    string           `json:"sub_type"`
+	MessageId  int              `json:"message_id"`
+	UserId     int64            `json:"user_id"`
+	Messages   []schema.Message `json:"message"`
+	RawMessage string           `json:"raw_message"`
+	Font       int              `json:"font"`
+	Sender     schema.Sender    `json:"sender"`
+}
+
+// yield the rawMessage by type
+func (cm CommonMessage) FilterType(Type string) iter.Seq[json.RawMessage] {
+	return func(yield func(json.RawMessage) bool) {
+		for _, msg := range cm.Messages {
+			if msg.Type == Type {
+				if !yield(msg.Data) {
+					return
+				}
+			}
+		}
+	}
+}
+
+// yield all messages use type and raw
+func (cm CommonMessage) All() iter.Seq2[string, json.RawMessage] {
+	return func(yield func(string, json.RawMessage) bool) {
+		for _, msg := range cm.Messages {
+			if !yield(msg.Type, msg.Data) {
+				return
+			}
+		}
+	}
+}
+```
+## 总结
+Go官方新增的这种标准化迭代器设计，未来一定会规范各种第三方库数据类型的迭代方式，避免了各自为政，十分符合Go的工程化思想。
