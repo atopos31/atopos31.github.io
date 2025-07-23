@@ -9,6 +9,16 @@ tags = ["go","LLM"]
 ## React Agent
 通过让LLM循环执行 推理(Reasoning)->行动(Action)->观察(Observation) 来完成任务。
 ![alt text](image-1.png)
+本质上，可以用下面这段最小代码解释：
+```go
+for {
+    response := callLLM(context)
+    if response.ToolCalls {
+        context = executeTools(response.ToolCalls)
+    }
+    if response.Finished { return }
+}
+```
 [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
 
 [eino-React实现](https://www.cloudwego.io/zh/docs/eino/core_modules/flow_integration_components/react_agent_manual/)
