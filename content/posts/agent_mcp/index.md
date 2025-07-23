@@ -1,6 +1,7 @@
 +++
 date = '2025-07-22T16:01:07+08:00'
 title = 'React Agent与MCP'
+tags = ["go","LLM"]
 +++
 
 2025年的今天，大语言模型的能力早已不再限于chatbot(只会聊天)，各家模型都在文本预测的基础上扩展LLM的能力，例如Structured Outputs(结构化输出)，Function calling(函数调用)，MCP(模型上下文协议)，同时，有人提出一种结合LLM思考与行动的协同机制-React。
