@@ -18,7 +18,7 @@ LLM自身训练的结构化输出能力以及通过openai-api服务实现，让L
 ![alt text](image.png)
 之后你应该在输入的messages里面加入除user,assistant的另一个角色，名为tool，tool的content内容为函数调用结果，至于函数是如何调用，LLM和openai-api服务并不参与，由开发者执行。此时再次对话，LLM会根据上下文中函数调用结果生成回答。
 
-[opneai-function-calling](https://platform.openai.com/docs/guides/function-calling?api-mode=chat)
+[openai-function-calling](https://platform.openai.com/docs/guides/function-calling?api-mode=chat)
 
 ## MCP
 MCP (Model Context Protocol)是一种开放协议，用于标准化应用程序如何向大型语言模型（LLMs）提供上下文。可以将 MCP 想象为 AI 应用的 typec 接口。正如 typec 提供了一种标准化的方式将您的设备连接到各种外设和配件，MCP 也提供了一种标准化的方式，将 AI 模型连接到不同的数据源和工具。
