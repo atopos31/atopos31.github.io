@@ -224,3 +224,8 @@ func McpToolHandler(session *mcp.ClientSession) ToolHandle {
 ![alt text](image-6.png)
 ## 总结
 一个完整React Agent 配合 MCP tools，由纯Golang实现，现在很多教程都在讲MCP Server的实现，缺少完整的教程,所以这篇博客还是很有价值的。字节的eino框架也实现了一个[React Agent](https://www.cloudwego.io/zh/docs/eino/core_modules/flow_integration_components/react_agent_manual/)，不过代码复杂，不适合快速学习。动手实现对于理解MCP Agent Function calling帮助很大！
+
+## 参考
+
+[Model Context Protocol — Intuitively and Exhaustively Explained](https://iaee.substack.com/p/model-context-protocol-intuitively)
+[Why LangGraph Overcomplicates AI Agents (And My Go Alternative)](https://vitaliihonchar.com/insights/go-ai-agent-library)
