@@ -228,4 +228,7 @@ func McpToolHandler(session *mcp.ClientSession) ToolHandle {
 ## 参考
 
 [Model Context Protocol — Intuitively and Exhaustively Explained](https://iaee.substack.com/p/model-context-protocol-intuitively)
+
 [Why LangGraph Overcomplicates AI Agents (And My Go Alternative)](https://vitaliihonchar.com/insights/go-ai-agent-library)
+
+[An LLM does not need to understand MCP](https://hackteam.io/blog/your-llm-does-not-care-about-mcp)
