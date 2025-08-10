@@ -30,9 +30,9 @@ services:
 ![alt text](image-5.png)
 注意，环境变量中的TOKEN同时负责api以及后台管理的鉴权。
 # 日用推荐
-![alt text](image.png)
+![alt text](image-11.png)
 ## qwen3-coder
-可以选择魔搭提供的每日2000次免费api，主要结合qwen-code cli来进行代码编写，效果十分不错。
+可以选择魔搭提供的每日2000次免费api或者openrouter的qwen3-coder:free，主要结合qwen-code cli来进行代码编写，效果十分不错。
 ![alt text](image-7.png)
 ## gemini-2.5-pro
 目前最强的大语言模型，非常适合日常问题解答，缺点是响应比较慢，国内使用还需要代理。
