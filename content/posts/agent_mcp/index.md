@@ -52,7 +52,7 @@ MCP (Model Context Protocol)是一种开放协议，用于标准化应用程序�
 看完上文，你应该能对MCP，Function calling 与 React Agent 之间的关系有所了解。
 
 ## 实践
-接下来我会用Golang以及[openai-go](https://github.com/openai/openai-go)与[mcp-go-sdk](github.com/modelcontextprotocol/go-sdk)对上图各个部分实现一个最简MVP版本。
+接下来我会用Golang以及[openai-go](https://github.com/openai/openai-go)与[mcp-go-sdk](https://github.com/modelcontextprotocol/go-sdk)对上图各个部分实现一个最简MVP版本。
 
 依赖:
 ```bash
