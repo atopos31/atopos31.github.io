@@ -4,7 +4,9 @@ title = 'LLLMIO 全新的 LLM API 负载均衡网关'
 +++
 
 经过几个月的更新 现在 LLMIO 的功能应该是很完善了
-[github开源地址](https://github.com/atopos31/llmio)
+
+[LLMIO](https://github.com/atopos31/llmio)
+
 总结一些使用 LLMIO 最佳实践
 
 ## API KEY 管理
