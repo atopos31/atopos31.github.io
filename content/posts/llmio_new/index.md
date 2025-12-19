@@ -1,6 +1,6 @@
 +++
 date = '2025-12-19T11:20:48+08:00'
-title = 'LLLMIO 全新的 LLM API 负载均衡网关'
+title = 'LLMIO 全新的 LLM API 负载均衡网关'
 +++
 
 经过几个月的更新 现在 LLMIO 的功能应该是很完善了
