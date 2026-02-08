@@ -2,6 +2,9 @@ languageCode: zh-cn
 title: 博客
 theme: PaperMod
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     codeFences: true           # 代码框
     guessSyntax: true          # 猜测代码类型
