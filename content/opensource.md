@@ -1,6 +1,6 @@
 ---
 menus: main
-title: 开源
+title: 开源项目
 ---
 
 ## [llmio](https://github.com/atopos31/llmio)
