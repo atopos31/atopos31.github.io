@@ -21,6 +21,9 @@ title = '香港一日游（港卡，购物攻略）'
 从上海出发，浦东国际机场—>✈️->宝安国际机场->🚌(夜间线na1)->投资大厦->🚶->福田站->🚄->西九龙站（早上7点左右），全程花费440+20+68。
 
 # 西九龙抵港
+<div style="display: flex; justify-content: center;">
+  <img src="xijiulong.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
 根据指示牌用身份证+港澳通行证过关后，第二次刷港澳通行证会获取一个入境小票，保存好。
 
 通关后，根据指示牌前往圆方方向，会看见这个地方，这时是最适合办卡的。
