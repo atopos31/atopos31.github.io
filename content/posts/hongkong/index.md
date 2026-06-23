@@ -24,20 +24,28 @@ title = '香港一日游（港卡，购物攻略）'
 根据指示牌用身份证+港澳通行证过关后，第二次刷港澳通行证会获取一个入境小票，保存好。
 
 通关后，根据指示牌前往圆方方向，会看见这个地方，这时是最适合办卡的。
-![](yuanfnag.jpg)
+<div style="text-align: center;">
+  <img src="yuanfnag.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
 
 此处有座位+免费wifi(30分钟重新认证)+中银ATM机+汇丰ATM机。
 
 到此后，可以打开之前办理通行证的程序，点击出入境记录查询，等待出镜记录更新，然后下载，下载后的文件不要修改文件名字，原封不动留在手机中，办港卡必备证明文件。
-![](yiminju.jpg)
+<div style="text-align: center;">
+  <img src="yiminju.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
 
 汇丰注意办卡的时候职业选学生，收入填最低，其他众安象象蚂蚁银行这种没什么需要注意的，秒过。
 
 在中银ATM机，可以用招商万事达取现港币，首次取现免手续费，实时汇率，香港部分商店只收取现金。
-![](hkd.jpg)
+<div style="text-align: center;">
+  <img src="hkd.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
 
 如果秒过了汇丰账户，同时玩完香港后回到西九龙站的时候现金没有花完，可以通过此处的汇丰ATM机无卡存款（最低面额100hkd），输入账户名即可。
-![](huifeng.jpg)
+<div style="text-align: center;">
+  <img src="huifeng.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
 
 # 吃+逛
 ## 尖沙咀
