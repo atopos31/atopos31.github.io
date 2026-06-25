@@ -52,7 +52,31 @@ title = '香港一日游（港卡，购物攻略）'
 
 # 吃+逛
 ## 尖沙咀
-## 星光大道
+吃了个华嫂冰室，花了80hkd。
+<div style="display: flex; justify-content: center;">
+  <img src="ice.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
+
+## 旗帜
+<div style="display: flex; justify-content: center;">
+  <img src="qizhi.jpg" style="max-width: 100%; max-height: 420px; object-fit: contain;" />
+</div>
+
 ## 维多利亚港
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; align-items: center;">
+  <img src="wd1.jpg" style="width: 100%; max-height: 320px; object-fit: contain;" />
+  <img src="wd2.jpg" style="width: 100%; max-height: 320px; object-fit: contain;" />
+  <img src="wd3.jpg" style="width: 100%; max-height: 320px; object-fit: contain;" />
+  <img src="wd4.jpg" style="width: 100%; max-height: 320px; object-fit: contain;" />
+</div>
+
 ## 天星小轮
+<div style="display: flex; gap: 12px; align-items: flex-start; justify-content: center;">
+  <img src="matou.jpg" style="width: 48%; max-height: 460px; object-fit: contain;" />
+  <img src="lun.jpg" style="width: 48%; max-height: 460px; object-fit: contain;" />
+</div>
+
 ## 重庆大厦
+<div style="display: flex; justify-content: center;">
+  <img src="chongqing.jpg" style="max-width: 100%; max-height: 460px; object-fit: contain;" />
+</div>
